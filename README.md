@@ -79,29 +79,46 @@ I'm a **backend developer** who builds secure, well-structured services with **J
 
 ---
 
-## 🏗️ How I Approach Backend Systems
+## ⚙️ What I Build
 
-A typical service architecture I design and build toward:
-
-```mermaid
-graph LR
-    Client["React Client"] --> Gateway["API Gateway"]
-    Gateway --> Auth["Auth Service - Spring Security + JWT"]
-    Gateway --> Domain["Domain Service - Spring Boot + JPA"]
-    Gateway --> AI["AI Service - Spring AI"]
-    Domain --> Postgres[("PostgreSQL")]
-    AI --> Mongo[("MongoDB")]
-    Domain --> S3["AWS S3"]
-```
-
-> All services run as **Docker** containers on **AWS EC2**, deployed through a **CI/CD** pipeline.
-
-**Principles I work by**
-
-- **Layered design:** controller → service → repository, with clear boundaries (MVC).
-- **Secure by default:** authentication, authorization, and least-privilege IAM from day one.
-- **Reproducible delivery:** containerized builds and automated pipelines instead of manual deploys.
-- **Test what matters:** API contracts verified with Postman and automated tests.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔐 Secure REST APIs</h3>
+      <ul>
+        <li>Layered Spring Boot services (controller, service, repository)</li>
+        <li>Authentication and role-based access with Spring Security</li>
+        <li>Validated, well-documented endpoints tested in Postman</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🗄️ Data & Persistence</h3>
+      <ul>
+        <li>Relational modeling with PostgreSQL, Spring Data JPA and Hibernate</li>
+        <li>Flexible document storage with MongoDB</li>
+        <li>Clean schemas, indexing and query design</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>☁️ Cloud & Delivery</h3>
+      <ul>
+        <li>Dockerized services built with Maven</li>
+        <li>Deployments on AWS (EC2, S3) with least-privilege IAM</li>
+        <li>CI/CD pipelines for repeatable releases</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤖 AI-Powered Features</h3>
+      <ul>
+        <li>LLM integrations using Spring AI</li>
+        <li>Microservice-friendly design for adding AI capabilities</li>
+        <li>React front ends that consume these APIs</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -132,7 +149,7 @@ Add your 3 best repos here. Replace REPO_NAME with the exact repository name:
 
 ## 🤝 Let's Connect
 
-Open to **Java developer, Backend roles, and collaboration** on projects involving Java, Spring Boot, and cloud-native systems. The best way to reach me is [LinkedIn](https://linkedin.com/in/ankit-adhikari2004) or [email](mailto:ankitadhikari.dev@gmail.com).
+Open to **internships, backend roles, and collaboration** on projects involving Java, Spring Boot, and cloud-native systems. The best way to reach me is [LinkedIn](https://linkedin.com/in/ankit-adhikari2004) or [email](mailto:ankitadhikari.dev@gmail.com).
 
 <div align="center">
 
